@@ -1,7 +1,16 @@
 :root {
-	--color-black: #000000;
+	--color-very-dark_blue: #1B1D23;
+	--color-dark-grey: #60636D;
+	--color-medium-grey: #7D828F;
+	--color-light-grey: #C8CCD8;
+	--color-very-light_grey: #EEEFF4;
+	--color-red: #DF5656;
 	--color-white: #FFFFFF;
 
-	--color-primary: var(--color-black);
-	--color-primary-hover: var(--color-white);
+	--color-primary: var(--color-very-dark_blue);
+	--color-primary-hover: var(--color-dark-grey);
+	--color-primary-active: var(--color-light-grey);
+	--color-neutral: var(--color-dark-grey);
+	--color-background: var(--color-white);
+	--color-danger: var(--color-red);
 }
