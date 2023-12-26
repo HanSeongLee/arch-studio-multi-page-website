@@ -3,7 +3,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 const makeColorName = (color: string) => {
-    return '--color-' + color.replace('_', '-').toLowerCase();
+    return '--color-' + color.replace(/_/gi, '-').toLowerCase();
 };
 
 export const generateColorStyleSheet = () => {
@@ -13,7 +13,7 @@ export const generateColorStyleSheet = () => {
     }
     styleSheet += '\n';
     for (const colorName in BRAND_COLORS) {
-        styleSheet += `\t--color-${colorName.toLowerCase().replace('_', '-')}: var(${makeColorName(BRAND_COLORS[colorName])});\n`;
+        styleSheet += `\t${makeColorName(colorName)}: var(${makeColorName(BRAND_COLORS[colorName])});\n`;
     }
     return styleSheet;
 };
