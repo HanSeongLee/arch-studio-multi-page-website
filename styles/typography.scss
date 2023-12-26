@@ -8,3 +8,50 @@
   letter-spacing: $letter-spacing;
   font-family: $font-family;
 }
+
+@mixin HeadingXL {
+  @include Typography(120px, 700, normal, 200px, -3px, var(--spartan-font));
+
+  color: var(--color-very-light-grey);
+
+  @include media(">desktop") {
+    font-size: 250px;
+    letter-spacing: -5px;
+  }
+}
+
+@mixin HeadingL {
+  @include Typography(48px, 700, normal, 48px, -1.2px, var(--spartan-font));
+
+  color: var(--color-white);
+
+  @include media(">tablet") {
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: -2px;
+  }
+}
+
+@mixin HeadingM {
+  @include Typography(48px, 700, normal, 52px, -1.714px, var(--spartan-font));
+
+  color: var(--color-primary);
+
+  @include media(">tablet") {
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -2px;
+  }
+}
+
+@mixin HeadingS {
+  @include Typography(32px, 700, normal, 40px, initial, var(--spartan-font));
+
+  color: var(--color-white);
+}
+
+@mixin Body {
+  @include Typography(18px, 500, normal, 24px, initial, var(--spartan-font));
+
+  color: var(--color-neutral);
+}
