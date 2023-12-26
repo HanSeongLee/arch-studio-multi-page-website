@@ -1,0 +1,17 @@
+@import "styles/typography";
+
+.small {
+  @include HeadingS;
+}
+
+.medium {
+  @include HeadingM;
+}
+
+.large {
+  @include HeadingL;
+}
+
+.xlarge {
+  @include HeadingXL;
+}
