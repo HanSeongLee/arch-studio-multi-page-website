@@ -4,6 +4,12 @@ import SEO from 'config/next-seo.config';
 import { DefaultSeo } from 'next-seo';
 import Head from 'next/head';
 import React from 'react';
+import { League_Spartan } from '@next/font/google';
+
+const SpartanFont = League_Spartan({
+    weight: ['500', '700'],
+    subsets: ['latin'],
+});
 
 function MyApp({ Component, pageProps }: AppProps) {
     return (
@@ -14,6 +20,12 @@ function MyApp({ Component, pageProps }: AppProps) {
                 />
             </Head>
             <DefaultSeo {...SEO} />
+            <style jsx global>{`
+                :root {
+                  --spartan-font: ${SpartanFont.style.fontFamily};
+                }
+            `}
+            </style>
             <Component {...pageProps} />
         </>
     );
