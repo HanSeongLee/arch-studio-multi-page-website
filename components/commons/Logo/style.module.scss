@@ -1,0 +1,19 @@
+@import "styles/utils";
+
+.logo {
+  display: flex;
+
+  svg {
+    width: 77px;
+    height: 32.028px;
+
+    @include media(">tablet") {
+      width: 96.164px;
+      height: 40px;
+    }
+  }
+
+  &.dark svg path {
+    fill: var(--color-white);
+  }
+}
