@@ -1,5 +1,14 @@
 # 🚦 CHANGELOG
 
+## [1.1.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.0.0...v1.1.0) (2023-12-27)
+
+
+### ✨ Features
+
+* add Container component ([2033d4b](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/2033d4b4971ff9eea802cb78dc4eeda9f7d46d97))
+* add Logo component ([89b21bc](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/89b21bc194e51ae7e31ec7f80de5987210558794))
+* add PageTitle component ([a2a75b8](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/a2a75b8b8df2e33059b03466dd0daff734981eb1))
+
 ## 1.0.0 (2023-12-26)
 
 
