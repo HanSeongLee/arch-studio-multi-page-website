@@ -1,5 +1,17 @@
 # 🚦 CHANGELOG
 
+## [1.2.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.1.0...v1.2.0) (2023-12-28)
+
+
+### ✨ Features
+
+* add Button component ([60e06fd](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/60e06fd2fa2b397cfbc5742edd191991ffde79cc))
+
+
+### 🐛 Bug Fixes
+
+* correct position of PageTitle component ([7edca71](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/7edca7146c337aee9d46489ab891bb9d562e9d5a))
+
 ## [1.1.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.0.0...v1.1.0) (2023-12-27)
 
 
