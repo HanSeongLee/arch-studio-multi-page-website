@@ -1,0 +1,71 @@
+@import "styles/typography";
+@import "styles/utils";
+
+.button {
+  @include Body;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  font-weight: 700;
+  color: var(--color-white);
+  border: none;
+  cursor: pointer;
+
+  @include media(">desktop") {
+    transition: background 0.3s;
+  }
+
+  &.primary {
+    background-color: var(--color-primary);
+    padding: 25px 32px 22px 34px;
+
+    @include media(">desktop") {
+      &:hover {
+        background: var(--color-primary-hover);
+      }
+    }
+
+    &.active {
+      background: var(--color-primary-active);
+    }
+  }
+
+  &.secondary {
+    color: var(--color-primary);
+    background: transparent;
+
+    @include media(">desktop") {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &.tab {
+    color: var(--color-medium-grey);
+    background-color: var(--color-white);
+
+    @include media(">desktop") {
+      &:hover {
+        background: var(--color-very-light-grey);
+      }
+    }
+
+    &.active {
+      color: var(--color-white);
+      background-color: var(--color-primary);
+    }
+  }
+
+  &.icon {
+    background: transparent;
+  }
+
+  &.square {
+    width: 80px;
+    height: 80px;
+    padding: 0;
+  }
+}
