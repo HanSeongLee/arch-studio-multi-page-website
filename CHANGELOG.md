@@ -1,5 +1,14 @@
 # 🚦 CHANGELOG
 
+## [1.3.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.2.0...v1.3.0) (2023-12-29)
+
+
+### ✨ Features
+
+* add 'size' property to Logo component ([1b7d439](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/1b7d439ee833a1fe5d0da464c85d2ac037f862c7))
+* add Header component ([12e6eb0](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/12e6eb05a644a34189f4820821efbfa3f380a1d4))
+* add Menu component ([fa991b1](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/fa991b1df88f65e6d764fbeaf901974696027d41))
+
 ## [1.2.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.1.0...v1.2.0) (2023-12-28)
 
 
