@@ -3,7 +3,17 @@
 .logo {
   display: flex;
 
-  svg {
+  &.small svg {
+    width: 58px;
+    height: 24.13px;
+
+    @include media(">desktop") {
+      width: 96.164px;
+      height: 40px;
+    }
+  }
+
+  &.medium svg {
     width: 77px;
     height: 32.028px;
 
