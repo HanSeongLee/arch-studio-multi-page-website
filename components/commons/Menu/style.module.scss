@@ -1,0 +1,59 @@
+@import "styles/typography";
+@import "styles/utils";
+
+.menu {
+  position: relative;
+
+  &.open .nav {
+    display: flex;
+  }
+
+  .nav {
+    @include HeadingS;
+
+    position: absolute;
+    top: 61px;
+    right: -32px;
+    width: 343px;
+    display: none;
+    flex-direction: column;
+    gap: 17px;
+    color: var(--color-primary);
+    background: var(--color-very-light-grey);
+    padding: 39px 48px 42px;
+    z-index: 100;
+
+    @include media(">tablet") {
+      @include Body;
+
+      position: initial;
+      top: initial;
+      right: initial;
+      width: initial;
+      display: flex;
+      flex-direction: row;
+      gap: 61px;
+      font-weight: 700;
+      color: inherit;
+      background: initial;
+      padding: initial;
+    }
+  }
+
+  a {
+    @include media(">desktop") {
+      transition: color 0.3s;
+
+      &:hover {
+        color: var(--color-primary);
+      }
+    }
+  }
+
+  .menuButton {
+
+    @include media(">tablet") {
+      display: none;
+    }
+  }
+}
