@@ -1,5 +1,18 @@
 # 🚦 CHANGELOG
 
+## [1.4.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.3.0...v1.4.0) (2023-12-30)
+
+
+### ✨ Features
+
+* add 'div' element type to Button component ([6d13f75](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/6d13f753bb25cecc74ca806be8aacd605199852a))
+* add Footer component ([8213a64](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/8213a64768281c27b510cb596500829c4c7ec872))
+
+
+### 🐛 Bug Fixes
+
+* add Spartan font and correct font naming ([9a6e724](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/9a6e72463d0bf2c0049a73d347ca91f7f767c0f1))
+
 ## [1.3.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.2.0...v1.3.0) (2023-12-29)
 
 
