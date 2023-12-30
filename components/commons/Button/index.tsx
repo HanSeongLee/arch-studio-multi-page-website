@@ -5,7 +5,7 @@ import { IconName } from 'constants/Icons';
 import Icon from 'components/commons/Icon';
 import { COLORS } from 'styles/colors';
 
-interface IProps<T extends ElementType = 'button' | 'a'> {
+interface IProps<T extends ElementType = 'button' | 'a' | 'div'> {
     as?: T;
     type?: 'button' | 'submit' | 'reset';
     variant?: 'primary' | 'secondary' | 'tab' | 'icon';
