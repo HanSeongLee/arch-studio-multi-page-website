@@ -1,0 +1,16 @@
+@import "styles/utils";
+
+.layout {
+
+  .main {
+    margin-bottom: calc(60px + 72px);
+
+    @include media(">tablet") {
+      margin-bottom: 200px;
+    }
+
+    @include media(">desktop") {
+      margin-bottom: 160px;
+    }
+  }
+}
