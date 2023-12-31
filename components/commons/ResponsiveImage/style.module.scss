@@ -1,0 +1,46 @@
+@import "styles/utils";
+
+.image {
+  object-fit: cover;
+
+  &.mobile {
+    @include media('>tablet') {
+      display: none;
+    }
+  }
+
+  &.tablet {
+    display: none;
+
+    @include media('>tablet') {
+      display: block;
+    }
+
+    @include media(">desktop") {
+      display: none;
+    }
+  }
+
+  &.desktop {
+    display: none;
+
+    @include media('>desktop') {
+      display: block;
+    }
+  }
+}
+
+.fillExample {
+  position: relative;
+  width: 311px;
+  height: 240px;
+
+  @include media(">tablet") {
+    width: 573px;
+  }
+
+  @include media(">desktop") {
+    width: 350px;
+    height: 560px;
+  }
+}
