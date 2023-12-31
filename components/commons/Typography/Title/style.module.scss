@@ -1,5 +1,9 @@
 @import "styles/typography";
 
+.title {
+  white-space: pre-line;
+}
+
 .small {
   @include HeadingS;
 }

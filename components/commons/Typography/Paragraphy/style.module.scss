@@ -2,4 +2,6 @@
 
 .paragraph {
   @include Body;
+
+  white-space: pre-line;
 }

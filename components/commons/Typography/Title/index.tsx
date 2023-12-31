@@ -3,7 +3,7 @@ import styles from 'components/commons/Typography/Title/style.module.scss';
 import cn from 'classnames';
 
 interface IProps extends HTMLAttributes<HTMLHeadingElement> {
-    as: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
+    as: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'div' | 'span';
     size: 'small' | 'medium' | 'large' | 'xlarge';
     color?: string;
 }
@@ -13,7 +13,7 @@ const Title: React.FC<IProps> = ({
                                      children, ...props
                                  }) => {
     return createElement(as, {
-        className: cn({
+        className: cn(styles.title, {
             [styles.small]: size === 'small',
             [styles.medium]: size === 'medium',
             [styles.large]: size === 'large',
