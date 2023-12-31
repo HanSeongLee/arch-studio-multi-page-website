@@ -1,12 +1,13 @@
 import React from 'react';
 import styles from './style.module.scss';
 import cn from 'classnames';
-import Image, { ImageProps } from 'next/image';
-import { urlForImage } from 'lib/sanity/lib/image';
+import { ImageProps } from 'next/image';
 import { ImageSrcSet } from 'types/image';
+import Image from 'components/commons/Image';
 
-interface IProps extends Omit<ImageProps, 'src'> {
+interface IProps extends Omit<ImageProps, 'src' | 'objectFit'> {
     srcSet: ImageSrcSet;
+    objectFit?: 'cover' | 'contain';
 }
 
 const ResponsiveImage: React.FC<IProps> = ({ srcSet, className, ...props }) => {
@@ -17,7 +18,7 @@ const ResponsiveImage: React.FC<IProps> = ({ srcSet, className, ...props }) => {
                 styles.mobile,
                 className
             )}
-                   src={typeof srcSet.mobile === 'object' ? urlForImage(srcSet.mobile) : srcSet.mobile}
+                   src={srcSet.mobile}
                    {...props}
             />
             <Image className={cn(
@@ -25,7 +26,7 @@ const ResponsiveImage: React.FC<IProps> = ({ srcSet, className, ...props }) => {
                 styles.tablet,
                 className
             )}
-                   src={typeof srcSet.tablet === 'object' ? urlForImage(srcSet.tablet) : srcSet.tablet}
+                   src={srcSet.tablet}
                    {...props}
             />
             <Image className={cn(
@@ -33,7 +34,7 @@ const ResponsiveImage: React.FC<IProps> = ({ srcSet, className, ...props }) => {
                 styles.desktop,
                 className
             )}
-                   src={typeof srcSet.desktop === 'object' ? urlForImage(srcSet.desktop) : srcSet.desktop}
+                   src={srcSet.desktop}
                    {...props}
             />
         </>

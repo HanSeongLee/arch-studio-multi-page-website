@@ -1,8 +1,6 @@
 @import "styles/utils";
 
 .image {
-  object-fit: cover;
-
   &.mobile {
     @include media('>tablet') {
       display: none;
