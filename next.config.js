@@ -15,6 +15,9 @@ const nextConfig = {
     });
     return config;
   },
+  images: {
+    domains: ['cdn.sanity.io']
+  },
   pageExtensions: ['page.tsx', 'page.ts', 'page.jsx', 'page.js', 'api.ts', 'api.js'],
   sentry: {
     // Use `hidden-source-map` rather than `source-map` as the Webpack `devtool`
