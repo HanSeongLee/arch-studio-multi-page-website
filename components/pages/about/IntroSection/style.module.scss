@@ -1,0 +1,59 @@
+@import "../../../../styles/utils";
+
+.introSection {
+
+  .container {
+
+    @include media(">desktop") {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .content {
+    position: relative;
+    padding-top: 69px;
+
+    @include media(">tablet") {
+      padding-top: 49px;
+    }
+
+    @include media(">desktop") {
+      flex-basis: 446px;
+      padding-top: 83px;
+    }
+
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 65px;
+      height: 1px;
+      background: var(--color-light-grey);
+      content: "";
+    }
+  }
+
+  .title {
+    margin-bottom: 22px;
+
+    @include media(">tablet") {
+      margin-bottom: 68px;
+    }
+
+    @include media(">desktop") {
+      margin-bottom: 58px;
+    }
+  }
+
+  .imageWrapper {
+    display: none;
+
+    @include media(">desktop") {
+      display: block;
+      position: relative;
+      width: 540px;
+      height: 568px;
+    }
+  }
+}
