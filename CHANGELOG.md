@@ -1,5 +1,27 @@
 # 🚦 CHANGELOG
 
+## [1.5.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.4.0...v1.5.0) (2024-01-01)
+
+
+### ✨ Features
+
+* add HeroSection component ([12b7e51](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/12b7e5145161d51f48faac1c132b6624ebdf81c5))
+* add Image component ([a0fc958](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/a0fc958d9a9ae506f59a9539eea858621226335a))
+* add IntroSection component ([eb9ba29](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/eb9ba296328c2c4e440ad7fd0d156c3b8d9044ee))
+* add Layout component ([13464b6](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/13464b69de761b3cb4305e4a32ad695f3c2a23ca))
+* add ResponsiveImage component ([df9d58b](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/df9d58be6cc28affb7e3d659695bef7661362e27))
+* update Typography components ([166859c](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/166859c70588e9bf65a8b0e3b4c2830d47ba0566))
+
+
+### 🐛 Bug Fixes
+
+* remove schema in sanity ([27c8e53](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/27c8e53ae4eb83a75f5bb6e6e5ef1f9a562a3e41))
+
+
+### 💫 CI/CD
+
+* add --legacy-peer-deps to npm ci ([d8545fb](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/d8545fb8300ff167759e29bb558b5c236850badd))
+
 ## [1.4.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.3.0...v1.4.0) (2023-12-30)
 
 
