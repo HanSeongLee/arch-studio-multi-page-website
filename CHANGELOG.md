@@ -1,5 +1,17 @@
 # 🚦 CHANGELOG
 
+## [1.6.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.5.0...v1.6.0) (2024-01-02)
+
+
+### ✨ Features
+
+* add SocialCard component ([c6e552a](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/c6e552afc6663ad080337380e01000ea308924fa))
+
+
+### 🐛 Bug Fixes
+
+* fix package dependencies ([e905279](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/e9052796aaaf197ff3faa6403a84e461699995aa))
+
 ## [1.5.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.4.0...v1.5.0) (2024-01-01)
 
 
