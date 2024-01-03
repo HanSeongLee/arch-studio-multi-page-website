@@ -1,5 +1,13 @@
 # 🚦 CHANGELOG
 
+## [1.7.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.6.0...v1.7.0) (2024-01-03)
+
+
+### ✨ Features
+
+* add LeaderSection component ([91db4df](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/91db4df0c58acc6106eab55734ef8e93fe1e7d2d))
+* add SocialCardContainer component ([a196463](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/a1964634daf5f881123b8f60f4439c011f76b22e))
+
 ## [1.6.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.5.0...v1.6.0) (2024-01-02)
 
 
