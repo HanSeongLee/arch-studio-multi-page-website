@@ -1,0 +1,37 @@
+@import "styles/utils";
+
+.leaderSection {
+
+  .container {
+
+    @include media(">desktop") {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .title {
+    margin-bottom: 55px;
+
+    @include media(">tablet") {
+      margin-bottom: 49px;
+    }
+  }
+
+  .socialCardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 79px;
+
+    @include media(">tablet") {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 103px 11px;
+    }
+
+    @include media(">desktop") {
+      flex-basis: 730px;
+      gap: 63px 30px;
+    }
+  }
+}
