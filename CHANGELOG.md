@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.7.1](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.7.0...v1.7.1) (2024-01-04)
+
+
+### 🐛 Bug Fixes
+
+* remove Sanity environment variable assert ([7cd8e4f](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/7cd8e4f75fe477f5e2b9b7b837712f2e160ba0b1))
+
 ## [1.7.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.6.0...v1.7.0) (2024-01-03)
 
 
