@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.8.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.7.1...v1.8.0) (2024-01-05)
+
+
+### ✨ Features
+
+* add PortfolioCard component ([2b416b3](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/2b416b312dcf36cac767a620d0572ae02e89ce56))
+
 ## [1.7.1](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.7.0...v1.7.1) (2024-01-04)
 
 
