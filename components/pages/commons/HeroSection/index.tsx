@@ -34,15 +34,17 @@ const HeroSection: React.FC<IProps> = ({
                 >
                     {subtitle}
                 </Title>
-                <Title className={styles.title}
-                       as={'h2'}
-                       size={'medium'}
-                >
-                    {title}
-                </Title>
-                <Paragraph>
-                    {description}
-                </Paragraph>
+                <div className={styles.innerContent}>
+                    <Title className={styles.title}
+                           as={'h2'}
+                           size={'medium'}
+                    >
+                        {title}
+                    </Title>
+                    <Paragraph>
+                        {description}
+                    </Paragraph>
+                </div>
             </div>
         </section>
     );

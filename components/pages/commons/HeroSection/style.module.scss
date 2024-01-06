@@ -1,6 +1,7 @@
 @import "../../../../styles/utils";
 
 .introSection {
+  overflow: hidden;
 
   @include media(">tablet") {
     max-width: 573px;
@@ -45,28 +46,39 @@
     min-height: 410px;
     background: var(--color-white);
     padding-top: calc(45px + 20px);
-    padding-left: 32px;
     margin-top: -45px;
     transform: translateX(calc(-50% - 16px));
     z-index: 1;
 
     @include media(">tablet") {
-      width: 572px;
+      width: initial;
       min-height: 431px;
       margin-top: -430px;
       transform: translateX(calc(-50% + 56px));
+    }
+
+    @include media(">desktop") {
+      left: 482px;
+      min-height: 503px;
+      margin-top: -503px;
+      transform: initial;
+    }
+  }
+
+  .innerContent {
+    width: 343px;
+    padding-left: 32px;
+
+    @include media(">tablet") {
+      width: 572px;
       padding-left: 60px;
       padding-right: 58px;
     }
 
     @include media(">desktop") {
-      left: 482px;
       width: 739px;
-      min-height: 503px;
       padding-left: 182px;
       padding-right: 100px;
-      margin-top: -503px;
-      transform: initial;
     }
   }
 
@@ -76,7 +88,7 @@
 
     &::before {
       position: absolute;
-      left: 0;
+      left: 118px;
       bottom: 26px;
       width: 65px;
       height: 1px;
@@ -91,13 +103,14 @@
 
     @include media(">tablet") {
       display: block;
+      right: 60px;
       margin-top: -150px;
       text-align: right;
       margin-bottom: 47px;
     }
 
     @include media(">desktop") {
-      right: 200px;
+      right: 488px;
       margin-bottom: 105px;
     }
   }
