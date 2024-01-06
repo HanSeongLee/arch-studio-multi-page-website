@@ -1,5 +1,17 @@
 # 🚦 CHANGELOG
 
+## [1.9.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.8.0...v1.9.0) (2024-01-06)
+
+
+### ✨ Features
+
+* add PortfolioContainer ([97562bd](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/97562bd056d3f65e335eb3b6e50b5a0ae6eadfa2))
+
+
+### 🐛 Bug Fixes
+
+* correct style of HeroSection component ([36cfb4a](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/36cfb4ab67c69e733ddb8f14bb3aa706f6500bcd))
+
 ## [1.8.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.7.1...v1.8.0) (2024-01-05)
 
 
