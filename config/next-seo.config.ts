@@ -6,6 +6,8 @@ const url = process.env.NEXT_PUBLIC_URL || '';
 const ogi = process.env.NEXT_PUBLIC_OG_IMAGE || '';
 const themeColor = process.env.NEXT_PUBLIC_THEME_COLOR || '';
 
+export const TITLE_TEMPLATE = `%s | ${title}`;
+
 const config: DefaultSeoProps = {
     title,
     description,
