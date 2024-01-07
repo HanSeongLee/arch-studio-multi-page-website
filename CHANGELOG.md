@@ -1,5 +1,13 @@
 # 🚦 CHANGELOG
 
+## [1.10.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.9.0...v1.10.0) (2024-01-07)
+
+
+### ✨ Features
+
+* add portfolio page ([023b6bb](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/023b6bb2caf8a1feb549bcc35224514f72bd4bda))
+* add portfolio schema ([9189302](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/91893023268be598b545e7fa8083fabbdf6d8221))
+
 ## [1.9.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.8.0...v1.9.0) (2024-01-06)
 
 
