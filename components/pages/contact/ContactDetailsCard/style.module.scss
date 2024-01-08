@@ -1,0 +1,42 @@
+@import "styles/utils";
+
+.contactDetailsCard {
+
+  @include media(">tablet") {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @include media(">desktop") {
+    width: 350px;
+    display: block;
+  }
+
+  .content {
+
+    .name {
+      line-height: 35px;
+      margin-bottom: 14px;
+    }
+  }
+
+  .buttonContainer {
+    margin-top: 43px;
+    margin-left: 6px;
+
+    @include media(">tablet") {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      margin-top: initial;
+      margin-left: initial;
+      padding-bottom: 13px;
+    }
+
+    @include media(">desktop") {
+      display: block;
+      margin-top: 59px;
+      margin-left: 6px;
+    }
+  }
+}
