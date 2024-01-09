@@ -1,5 +1,18 @@
 # 🚦 CHANGELOG
 
+## [1.11.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.10.0...v1.11.0) (2024-01-09)
+
+
+### ✨ Features
+
+* add ContactDetailsCard component ([39d9249](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/39d924984574278d24608448461e9db52e5441bc))
+* add ContactDetailsCardContainer ([fbbd79f](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/fbbd79ff33086c7deeb46be0a7c4360a6c915bda))
+
+
+### 🐛 Bug Fixes
+
+* add missing IContractDetails interface ([b1a0f1e](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/b1a0f1e220a5e5cc43d3870a17dbfbd15516fd95))
+
 ## [1.10.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.9.0...v1.10.0) (2024-01-07)
 
 
