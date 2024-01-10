@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.12.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.11.0...v1.12.0) (2024-01-10)
+
+
+### ✨ Features
+
+* add ContactDetailsSection component ([a09e990](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/a09e990f4ccc27d0e1a69dad5f82f88612e1d75e))
+
 ## [1.11.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.10.0...v1.11.0) (2024-01-09)
 
 
