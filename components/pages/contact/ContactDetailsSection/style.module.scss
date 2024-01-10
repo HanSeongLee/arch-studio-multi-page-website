@@ -1,0 +1,53 @@
+@import "styles/utils";
+
+.contactDetailsSection {
+
+  .container {
+
+    @include media(">desktop") {
+      display: flex;
+      gap: 30px;
+    }
+  }
+
+  .title {
+    position: relative;
+    padding-top: 68px;
+    margin-bottom: 40px;
+
+    @include media(">tablet") {
+      padding-top: 49px;
+    }
+
+    @include media(">desktop") {
+      flex-basis: 350px;
+      padding-top: 73px;
+    }
+
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 65px;
+      height: 1px;
+      background: var(--color-light-grey);
+      content: "";
+    }
+  }
+
+  .contactDetailsCardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    @include media(">tablet") {
+      gap: 43px;
+    }
+
+    @include media(">desktop") {
+      padding-top: 75px;
+      flex-direction: row;
+      gap: 30px;
+    }
+  }
+}
