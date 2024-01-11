@@ -1,11 +1,11 @@
 import React, { HTMLAttributes } from 'react';
 import cn from 'classnames';
 import PortfolioCard from 'components/pages/portfolio/PortfolioCard';
-import { Portfolio } from 'types/portfolio';
 import { convertDateToMonthNameYear } from 'constants/date';
+import { IPortfolio } from 'types/portfolio';
 
 interface IProps extends HTMLAttributes<HTMLDivElement> {
-    items: Portfolio[];
+    items: IPortfolio[];
 }
 
 const PortfolioContainer: React.FC<IProps> = ({ items, className, children, ...props }) => {
