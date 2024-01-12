@@ -1,5 +1,20 @@
 # 🚦 CHANGELOG
 
+## [1.13.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.12.0...v1.13.0) (2024-01-12)
+
+
+### ✨ Features
+
+* add hero section schema ([308f5db](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/308f5db9fd9531a895dcbf0d575fa89dea8c63d2))
+* add intro section schema ([34b8ef1](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/34b8ef1c3e1951f110b90f1b321a7b9990ab6fc2))
+* add SocialCard schema ([e5e0ef2](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/e5e0ef240a859415d60c0220c5ccb41964bead8f))
+
+
+### 🐛 Bug Fixes
+
+* change Portfolio type ([1b68b3d](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/1b68b3d18a114462eb001b707d71652d0a55d910))
+* correct Portfolio type in portfolio page ([e02f305](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/e02f3053932476dece78c88e355ef4f5d602df09))
+
 ## [1.12.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.11.0...v1.12.0) (2024-01-10)
 
 
