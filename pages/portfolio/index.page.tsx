@@ -3,7 +3,7 @@ import styles from './style.module.scss';
 import { client } from 'lib/sanity/lib/client';
 import groq from 'groq';
 import PortfolioContainer from 'containers/PortfolioContainer';
-import { Portfolio } from 'types/portfolio';
+import { IPortfolio } from 'types/portfolio';
 import Container from 'components/commons/Container';
 import { NextSeo } from 'next-seo';
 import { TITLE_TEMPLATE } from 'config/next-seo.config';
@@ -29,7 +29,7 @@ const PortfolioPage = ({ portfolios }: InferGetStaticPropsType<typeof getStaticP
 };
 
 export const getStaticProps = async () => {
-    const portfolios: Portfolio[] = await client.fetch(groq`*[_type == "portfolio"] | order(date desc)`);
+    const portfolios: IPortfolio[] = await client.fetch(groq`*[_type == "portfolio"] | order(date desc)`);
     return {
         props: {
             portfolios,
