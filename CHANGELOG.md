@@ -1,5 +1,18 @@
 # 🚦 CHANGELOG
 
+## [1.14.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.13.0...v1.14.0) (2024-01-13)
+
+
+### ✨ Features
+
+* add leader section schema ([5ed03b2](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/5ed03b286c3e94580fdbaf342448fd0848860409))
+* add page schema ([6edcf0d](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/6edcf0dab7b6b2212f74e32b104be271c53ccc78))
+
+
+### ♻️ Refactor
+
+* add SectionContainer ([7d622c5](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/7d622c5597c49e87f571eef04b50a66f2972e5c0))
+
 ## [1.13.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.12.0...v1.13.0) (2024-01-12)
 
 
