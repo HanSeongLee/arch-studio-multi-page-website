@@ -1,7 +1,8 @@
 import { defineField, defineType } from 'sanity';
+import { SectionName } from 'types/page';
 
 export default defineType({
-    name: 'leaderSection',
+    name: SectionName.LEADER_SECTION,
     title: 'Leader Section',
     type: 'document',
     fields: [

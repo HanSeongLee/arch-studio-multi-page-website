@@ -1,7 +1,8 @@
 import { defineField, defineType } from 'sanity';
+import { SectionName } from 'types/page';
 
 export default defineType({
-    name: 'heroSection',
+    name: SectionName.HERO_SECTION,
     title: 'Hero Section',
     type: 'document',
     fields: [

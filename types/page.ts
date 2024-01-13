@@ -1,6 +1,14 @@
 import { ResponsiveThumbnail } from 'types/thumbnail';
 import { ISocialCard } from 'types/social-card';
 
+export type Section = IHeroSection | IIntroSection | ILeaderSection;
+
+export enum SectionName {
+    HERO_SECTION = 'heroSection',
+    INTRO_SECTION = 'introSection',
+    LEADER_SECTION = 'leaderSection',
+}
+
 export interface IPage {
     _id: string;
     _type: 'pages',
@@ -9,7 +17,7 @@ export interface IPage {
         current: string;
     };
     title: string;
-    sections: Array<IHeroSection | IIntroSection | ILeaderSection>;
+    sections: Array<Section>;
 }
 
 interface IBaseSection {
@@ -19,19 +27,19 @@ interface IBaseSection {
 }
 
 interface IHeroSection extends IBaseSection {
-    _type: 'heroSection';
+    _type: SectionName.HERO_SECTION;
     subtitle: string;
     description: string;
     thumbnail: ResponsiveThumbnail;
 }
 
 interface IIntroSection extends IBaseSection {
-    _type: 'introSection';
+    _type: SectionName.INTRO_SECTION;
     description: string;
     thumbnail: ResponsiveThumbnail;
 }
 
 interface ILeaderSection extends IBaseSection {
-    _type: 'leaderSection';
+    _type: SectionName.LEADER_SECTION;
     items: ISocialCard[];
 }
