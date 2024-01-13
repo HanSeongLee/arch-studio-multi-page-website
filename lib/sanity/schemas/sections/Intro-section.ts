@@ -8,7 +8,8 @@ export default defineType({
         defineField({
             name: 'title',
             title: 'Title',
-            type: 'string',
+            type: 'text',
+            rows: 2,
         }),
         defineField({
             name: 'description',
@@ -18,38 +19,17 @@ export default defineType({
         defineField({
             name: 'thumbnail',
             title: 'Thumbnail',
-            type: 'object',
-            fields: [
-                defineField({
-                    name: 'alt',
-                    title: 'Alt',
-                    type: 'string',
-                }),
-                defineField({
-                    name: 'mobile',
-                    title: 'Mobile',
-                    type: 'image',
-                    options: {
-                        hotspot: true,
-                    },
-                }),
-                defineField({
-                    name: 'tablet',
-                    title: 'Tablet',
-                    type: 'image',
-                    options: {
-                        hotspot: true,
-                    },
-                }),
-                defineField({
-                    name: 'desktop',
-                    title: 'Desktop',
-                    type: 'image',
-                    options: {
-                        hotspot: true,
-                    },
-                }),
-            ],
+            type: 'image',
+            options: {
+                hotspot: true,
+            },
         }),
     ],
+    preview: {
+        select: {
+            title: 'title',
+            subtitle: 'description',
+            media: 'thumbnail',
+        },
+    }
 });

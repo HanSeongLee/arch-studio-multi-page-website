@@ -57,4 +57,11 @@ export default defineType({
             ],
         }),
     ],
+    preview: {
+        select: {
+            title: 'title',
+            subtitle: 'subtitle',
+            media: 'thumbnail.mobile',
+        },
+    }
 });

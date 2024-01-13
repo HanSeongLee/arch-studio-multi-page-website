@@ -24,8 +24,8 @@ export default defineType({
             type: 'string',
         }),
         defineField({
-            name: 'social',
-            title: 'Social',
+            name: 'socials',
+            title: 'Socials',
             type: 'object',
             fields: [
                 defineField({
