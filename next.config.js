@@ -1,4 +1,6 @@
 const { withSentryConfig } = require('@sentry/nextjs')
+const CopyPlugin = require('copy-webpack-plugin');
+const { resolve } = require('path');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -13,6 +15,16 @@ const nextConfig = {
       test: /\.svg$/,
       use: ["@svgr/webpack"]
     });
+    config.plugins.push(
+        new CopyPlugin({
+          patterns: [
+            {
+              from: 'node_modules/leaflet/dist/images',
+              to: resolve(__dirname, 'public', 'leaflet', 'images')
+            },
+          ],
+        })
+    );
     return config;
   },
   images: {
