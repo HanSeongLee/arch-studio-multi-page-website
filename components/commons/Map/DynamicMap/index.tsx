@@ -9,9 +9,10 @@ const { MapContainer } = ReactLeaflet;
 
 interface IProps extends Omit<ReactLeaflet.MapContainerProps, 'children'> {
     children: (ReactLeafletUtils: typeof ReactLeaflet, LeafletUtils: typeof Leaflet) => React.ReactNode;
+    forwardedRef?: React.Ref<Leaflet.Map>;
 }
 
-const DynamicMap: React.FC<IProps> = ({ className, children, ...props }) => {
+const DynamicMap: React.FC<IProps> = ({ className, children, forwardedRef, ...props }) => {
 
     useEffect(() => {
         (async () => {
@@ -27,6 +28,7 @@ const DynamicMap: React.FC<IProps> = ({ className, children, ...props }) => {
     return (
         <MapContainer className={cn(styles.dynamicMap, className)}
                       {...props}
+                      ref={forwardedRef}
         >
             {children(ReactLeaflet, Leaflet)}
         </MapContainer>
