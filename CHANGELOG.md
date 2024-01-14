@@ -1,5 +1,13 @@
 # 🚦 CHANGELOG
 
+## [1.15.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.14.0...v1.15.0) (2024-01-14)
+
+
+### ✨ Features
+
+* add Map component ([e3518bd](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/e3518bdbe687e58914286e54b875056029140456))
+* add ref to Map and DynamicMap components ([4b8d370](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/4b8d3709f81e955d84242328dabd0d269520f3a8))
+
 ## [1.14.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.13.0...v1.14.0) (2024-01-13)
 
 
