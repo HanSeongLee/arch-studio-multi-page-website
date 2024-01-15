@@ -1,13 +1,13 @@
-export type IContactDetails = {
+export interface IContactDetails {
     _id?: string;
     name: string;
-    email: string;
+    mail: string;
     phone: string;
     address: string;
-    location?: {
+    location: {
         _type: 'geopoint';
         lat: number;
         lng: number;
-        alt: number;
+        alt?: number;
     }
-};
+}

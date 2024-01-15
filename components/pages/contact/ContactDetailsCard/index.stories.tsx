@@ -17,8 +17,13 @@ type Story = StoryObj<typeof ContactDetailsCard>;
 export const Default: Story = {
     args: {
         name: 'Main Office',
-        email: 'archone@mail.com',
+        mail: 'archone@mail.com',
         address: '1892  Chenoweth Drive TN',
         phone: '123-456-3451',
+        location: {
+            _type: 'geopoint',
+            lat: 35.8017288,
+            lng: -88.618196,
+        },
     },
 };

@@ -10,7 +10,7 @@ interface IProps extends HTMLAttributes<HTMLDivElement>, IContactDetails {
 }
 
 const ContactDetailsCard: React.FC<IProps> = ({
-                                                  className, name, email, phone, address,
+                                                  className, name, mail, phone, address,
                                                   onViewOnMapClick, ...props
                                               }) => {
     return (
@@ -23,7 +23,7 @@ const ContactDetailsCard: React.FC<IProps> = ({
                 </div>
 
                 <div>
-                    Mail :&nbsp;&nbsp;{email}
+                    Mail :&nbsp;&nbsp;{mail}
                 </div>
                 <div>
                     Address :&nbsp;&nbsp;{address}
