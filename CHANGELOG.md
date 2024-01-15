@@ -1,5 +1,18 @@
 # 🚦 CHANGELOG
 
+## [1.16.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.15.0...v1.16.0) (2024-01-15)
+
+
+### ✨ Features
+
+* add Map component to ContactDetailsSection component ([932424e](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/932424ebe6181c90278115d4556dd2c6f195d4fa))
+
+
+### 🐛 Bug Fixes
+
+* add onViewOnMapClick property to ContactDetailsCardContainer ([14b4ebe](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/14b4ebe3288564fa33d2c46101f54f46da0bb593))
+* correct changing email property name in IContactDetails interface ([2b09de0](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/2b09de049071b643f0a31fdff9981a5752fc32c6))
+
 ## [1.15.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.14.0...v1.15.0) (2024-01-14)
 
 
