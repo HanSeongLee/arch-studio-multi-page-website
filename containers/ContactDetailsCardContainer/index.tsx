@@ -4,14 +4,16 @@ import { IContactDetails } from 'types/contact';
 
 interface IProps extends HTMLAttributes<HTMLDivElement> {
     items: IContactDetails[];
+    onViewOnMapClick?: (item: IContactDetails) => void;
 }
 
-const ContactDetailsCardContainer: React.FC<IProps> = ({ items, ...props }) => {
+const ContactDetailsCardContainer: React.FC<IProps> = ({ items, onViewOnMapClick, ...props }) => {
     return (
         <div {...props}>
             {items.map((item, _) => {
                 return (
                     <ContactDetailsCard key={item._id}
+                                        onViewOnMapClick={() => onViewOnMapClick && onViewOnMapClick(item)}
                                         {...item}
                     />
                 );
