@@ -6,10 +6,12 @@ import heroSection from 'lib/sanity/schemas/sections/hero-section';
 import introSection from 'lib/sanity/schemas/sections/Intro-section';
 import page from 'lib/sanity/schemas/page';
 import leaderSection from 'lib/sanity/schemas/sections/leader-section';
+import office from 'lib/sanity/schemas/office';
+import contactDetailsSection from 'lib/sanity/schemas/sections/contact-details-section';
 
 export const schema: { types: SchemaTypeDefinition[]; } = {
   types: [
     portfolio, socialCard, heroSection, introSection,
-    leaderSection, page,
+    leaderSection, office, contactDetailsSection, page,
   ],
 };

@@ -1,4 +1,5 @@
 import { defineField, defineType } from 'sanity';
+import { SECTION_NAME_TYPES } from 'types/page';
 
 export default defineType({
     name: 'page',
@@ -19,11 +20,7 @@ export default defineType({
             name: 'sections',
             title: 'Sections',
             type: 'array',
-            of: [
-                { type: 'heroSection' },
-                { type: 'introSection' },
-                { type: 'leaderSection'},
-            ],
+            of: SECTION_NAME_TYPES,
         }),
     ],
 });
