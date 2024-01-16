@@ -1,5 +1,13 @@
 # 🚦 CHANGELOG
 
+## [1.17.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.16.0...v1.17.0) (2024-01-16)
+
+
+### ✨ Features
+
+* add contact details section schema ([2fb8ac9](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/2fb8ac93369b3ac6207f6b2e7a50749cae18a773))
+* add office schema ([632ac2c](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/632ac2c146186c7f53d5877caa2204c66a6cefb6))
+
 ## [1.16.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.15.0...v1.16.0) (2024-01-15)
 
 
