@@ -5,6 +5,7 @@ import HeroSection from 'components/pages/commons/HeroSection';
 import IntroSection from 'components/pages/about/IntroSection';
 import LeaderSection from 'components/pages/about/LeaderSection';
 import { Section, SectionName } from 'types/page';
+import ContactDetailsSection from 'components/pages/contact/ContactDetailsSection';
 
 interface IProps extends HTMLAttributes<HTMLDivElement> {
     items: Section[];
@@ -35,6 +36,13 @@ const SectionContainer: React.FC<IProps> = ({ items, className, ...props }) => {
                             <LeaderSection className={styles.leaderSection}
                                            key={section._key}
                                            {...section}
+                            />
+                        );
+                    case SectionName.CONTACT_DETAILS_SECTION:
+                        return (
+                            <ContactDetailsSection className={styles.contactDetailsSection}
+                                                   key={section._key}
+                                                   {...section}
                             />
                         );
                     default:

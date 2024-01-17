@@ -18,3 +18,10 @@
     margin: 200px 0 159px;
   }
 }
+
+.contactDetailsSection {
+
+  @include media(">tablet") {
+    margin-top: 200px;
+  }
+}
