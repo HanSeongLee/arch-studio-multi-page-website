@@ -5,6 +5,7 @@
 	--color-light-grey: #C8CCD8;
 	--color-very-light-grey: #EEEFF4;
 	--color-red: #DF5656;
+	--color-red-opacity-50: rgba(223,86,86,0.5);
 	--color-white: #FFFFFF;
 
 	--color-primary: var(--color-very-dark-blue);
@@ -13,4 +14,5 @@
 	--color-neutral: var(--color-dark-grey);
 	--color-background: var(--color-white);
 	--color-danger: var(--color-red);
+	--color-danger-opacity-50: var(--color-red-opacity-50);
 }

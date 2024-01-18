@@ -7,6 +7,7 @@ export const COLORS = {
     LIGHT_GREY: '#C8CCD8',
     VERY_LIGHT_GREY: '#EEEFF4',
     RED: '#DF5656',
+    RED_OPACITY_50: 'rgba(223,86,86,0.5)',
     WHITE: '#FFFFFF',
 };
 
@@ -17,4 +18,5 @@ export const BRAND_COLORS: { [key: string]: Color; } = {
     NEUTRAL: 'DARK_GREY',
     BACKGROUND: 'WHITE',
     DANGER: 'RED',
+    DANGER_OPACITY_50: 'RED_OPACITY_50',
 };
