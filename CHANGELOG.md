@@ -1,5 +1,17 @@
 # 🚦 CHANGELOG
 
+## [1.19.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.18.0...v1.19.0) (2024-01-18)
+
+
+### ✨ Features
+
+* add Input component ([8dfa1fe](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/8dfa1fe3477d5c09caee27a268b50095d5617343))
+
+
+### 🐛 Bug Fixes
+
+* correct collection names in contact details and leader sections ([2c33a84](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/2c33a84deabceb34faf5fe89902aebffdb5b41ca))
+
 ## [1.18.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.17.0...v1.18.0) (2024-01-17)
 
 
