@@ -17,7 +17,7 @@ type Story = StoryObj<typeof LeaderSection>;
 export const Default: Story = {
     args: {
         title: 'The \nLeaders',
-        items: [
+        socialCardItems: [
             {
                 _id: '1',
                 avatar: '/img/about/desktop/avatar-jake.jpg',

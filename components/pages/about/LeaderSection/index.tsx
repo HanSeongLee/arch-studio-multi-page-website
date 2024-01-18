@@ -8,11 +8,11 @@ import { ISocialCard } from 'types/social-card';
 
 interface IProps extends HTMLAttributes<HTMLDivElement> {
     title: string;
-    items: ISocialCard[];
+    socialCardItems: ISocialCard[];
 }
 
 const LeaderSection: React.FC<IProps> = ({
-                                             title, items, className, children,
+                                             title, socialCardItems, className, children,
                                              ...props
                                          }) => {
     return (
@@ -28,7 +28,7 @@ const LeaderSection: React.FC<IProps> = ({
                 </Title>
 
                 <SocialCardContainer className={styles.socialCardContainer}
-                                     items={items}
+                                     items={socialCardItems}
                 />
             </Container>
         </section>

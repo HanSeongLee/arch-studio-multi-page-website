@@ -13,8 +13,8 @@ export default defineType({
             rows: 2,
         }),
         defineField({
-            name: 'items',
-            title: 'Items',
+            name: 'socialCardItems',
+            title: 'Social Card Items',
             type: 'array',
             of: [
                 defineField({
@@ -31,7 +31,7 @@ export default defineType({
     preview: {
         select: {
             title: 'title',
-            subtitle: 'items',
+            subtitle: 'socialCardItems',
         },
         prepare({ title, subtitle }) {
             return {

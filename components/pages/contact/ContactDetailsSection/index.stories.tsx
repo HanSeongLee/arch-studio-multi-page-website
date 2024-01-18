@@ -16,7 +16,7 @@ type Story = StoryObj<typeof ContactDetailsSection>;
 
 export const Default: Story = {
     args: {
-        items: [
+        officeItems: [
             {
                 name: 'Main Office',
                 mail: 'archone@mail.com',

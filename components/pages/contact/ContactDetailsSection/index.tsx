@@ -10,15 +10,15 @@ import * as Leaflet from 'leaflet';
 
 interface IProps extends HTMLAttributes<HTMLDivElement> {
     title: string;
-    items: IContactDetails[];
+    officeItems: IContactDetails[];
 }
 
 const ContactDetailsSection: React.FC<IProps> = ({
-                                                     title, items, className, children,
+                                                     title, officeItems, className, children,
                                                      ...props
                                                  }) => {
     const mapRef = useRef<Leaflet.Map>(null);
-    const bounds: Leaflet.LatLngTuple[] = items.map((item) => {
+    const bounds: Leaflet.LatLngTuple[] = officeItems.map((item) => {
         const { location } = item;
         return [location.lat, location.lng];
     });
@@ -44,7 +44,7 @@ const ContactDetailsSection: React.FC<IProps> = ({
                     {title}
                 </Title>
                 <ContactDetailsCardContainer className={styles.contactDetailsCardContainer}
-                                             items={items}
+                                             items={officeItems}
                                              onViewOnMapClick={handleViewOnMapClick}
                 />
             </Container>
@@ -58,7 +58,7 @@ const ContactDetailsSection: React.FC<IProps> = ({
                                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                                 attribution="&copy; <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
                             />
-                            {items.map((item, index) => {
+                            {officeItems.map((item, index) => {
                                 const { location } = item;
                                 return (
                                     <Marker key={index}

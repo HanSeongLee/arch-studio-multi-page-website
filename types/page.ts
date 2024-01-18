@@ -49,10 +49,10 @@ interface IIntroSection extends IBaseSection {
 
 interface ILeaderSection extends IBaseSection {
     _type: SectionName.LEADER_SECTION;
-    items: ISocialCard[];
+    socialCardItems: ISocialCard[];
 }
 
 interface IContactDetailsSection extends IBaseSection {
     _type: SectionName.CONTACT_DETAILS_SECTION;
-    items: IContactDetails[];
+    officeItems: IContactDetails[];
 }
