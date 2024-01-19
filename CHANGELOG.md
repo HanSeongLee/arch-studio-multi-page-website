@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.20.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.19.0...v1.20.0) (2024-01-19)
+
+
+### ✨ Features
+
+* add TextArea component ([f1b329e](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/f1b329e1b4ca12f8d5516ea685934f2dde9a6b32))
+
 ## [1.19.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.18.0...v1.19.0) (2024-01-18)
 
 
