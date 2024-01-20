@@ -3,7 +3,7 @@ import styles from './style.module.scss';
 import cn from 'classnames';
 
 interface IProps extends HTMLAttributes<HTMLTextAreaElement> {
-    error: string;
+    error?: string;
 }
 
 const TextArea = React.forwardRef<HTMLTextAreaElement, IProps>(({

@@ -3,7 +3,7 @@ import styles from './style.module.scss';
 import cn from 'classnames';
 
 interface IProps extends InputHTMLAttributes<HTMLInputElement> {
-    error: string;
+    error?: string;
 }
 
 const Input = React.forwardRef<HTMLInputElement, IProps>(({
