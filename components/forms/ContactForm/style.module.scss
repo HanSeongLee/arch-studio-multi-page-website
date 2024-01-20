@@ -1,0 +1,18 @@
+@import "styles/utils";
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+
+  .inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  .buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -2px;
+  }
+}

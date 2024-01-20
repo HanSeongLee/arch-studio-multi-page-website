@@ -15,6 +15,7 @@ const TextArea = React.forwardRef<HTMLTextAreaElement, IProps>(({
         }, className)}
         >
             <textarea className={styles.textArea}
+                      rows={1}
                       {...props}
                       ref={ref}
             />
