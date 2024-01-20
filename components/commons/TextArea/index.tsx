@@ -1,8 +1,8 @@
-import React, { HTMLAttributes } from 'react';
+import React, { InputHTMLAttributes } from 'react';
 import styles from './style.module.scss';
 import cn from 'classnames';
 
-interface IProps extends HTMLAttributes<HTMLTextAreaElement> {
+interface IProps extends InputHTMLAttributes<HTMLTextAreaElement> {
     error?: string;
 }
 
