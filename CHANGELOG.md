@@ -1,5 +1,19 @@
 # 🚦 CHANGELOG
 
+## [1.21.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.20.0...v1.21.0) (2024-01-20)
+
+
+### ✨ Features
+
+* add ContactForm component ([f5f5e80](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/f5f5e80814d35865018ec71fe47c4ef1a932f149))
+
+
+### 🐛 Bug Fixes
+
+* change header max length from commitlint.config.js ([a0e133d](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/a0e133d8bce18dcc4e7860fdecbc1d416d2cdafb))
+* change HTMLAttributes to InputHTMLAttribute in TextArea component interface ([22f1146](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/22f1146478704e8d1354a05b3e44966bb9587296))
+* correct error type in Input and TextArea components ([739dd0c](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/739dd0cec1154385c74a5ee2c9350f34e059596f))
+
 ## [1.20.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.19.0...v1.20.0) (2024-01-19)
 
 
