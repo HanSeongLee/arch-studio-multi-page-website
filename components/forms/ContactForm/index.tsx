@@ -18,7 +18,7 @@ interface IProps extends Omit<FormHTMLAttributes<HTMLFormElement>, 'onSubmit'> {
 }
 
 const ContactForm: React.FC<IProps> = ({ onSubmit, className, children, ...props }) => {
-    const { register, handleSubmit} = useFormContext<ContactFormSubmit>();
+    const { register, handleSubmit, formState: { errors }} = useFormContext<ContactFormSubmit>();
 
     return (
         <form className={cn(styles.contactForm, className)}
@@ -28,14 +28,27 @@ const ContactForm: React.FC<IProps> = ({ onSubmit, className, children, ...props
             <div className={styles.inputContainer}>
                 <Input type={'text'}
                        placeholder={'Name'}
-                       {...register('name')}
+                       error={errors.name?.message}
+                       {...register('name', {
+                            required: 'Can’t be empty',
+                       })}
                 />
                 <Input type={'email'}
                        placeholder={'Email'}
-                       {...register('email')}
+                       error={errors.email?.message}
+                       {...register('email', {
+                            required: 'Can’t be empty',
+                            pattern: {
+                                 value: /\S+@\S+\.\S+/,
+                                 message: 'Email is invalid',
+                            },
+                       })}
                 />
                 <TextArea placeholder={'Message'}
-                          {...register('message')}
+                          error={errors.message?.message}
+                          {...register('message', {
+                                 required: 'Can’t be empty',
+                          })}
                 />
             </div>
             <div className={styles.buttonContainer}>
