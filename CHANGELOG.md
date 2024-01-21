@@ -1,5 +1,13 @@
 # 🚦 CHANGELOG
 
+## [1.22.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.21.0...v1.22.0) (2024-01-21)
+
+
+### ✨ Features
+
+* add ContactFormContainer ([3477248](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/347724804335201f468582de1969b0ec5c5af57b))
+* add validations and error messages to ContactForm component ([d487210](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/d487210124987ff95dd50c0425981b265ba752a2))
+
 ## [1.21.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.20.0...v1.21.0) (2024-01-20)
 
 
