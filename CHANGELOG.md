@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.23.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.22.0...v1.23.0) (2024-01-22)
+
+
+### ✨ Features
+
+* add ContactFormSection component ([f78e97f](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/f78e97f808907b8b95653566e4b5c1f477555729))
+
 ## [1.22.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.21.0...v1.22.0) (2024-01-21)
 
 
