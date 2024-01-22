@@ -1,0 +1,41 @@
+@import "styles/utils";
+
+.contactFormSection {
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+    @include media(">tablet") {
+      gap: 39px;
+    }
+
+    @include media(">desktop") {
+      flex-direction: row;
+      gap: 30px;
+    }
+  }
+
+  .title {
+
+    @include media(">tablet") {
+      white-space: nowrap;
+    }
+
+    @include media(">desktop") {
+      flex-basis: 350px;
+      white-space: pre;
+    }
+  }
+
+  .contactFormContainer {
+    flex: 1;
+    width: 100%;
+
+    @include media(">desktop") {
+      margin-top: -25px;
+      padding-top: -25px;
+    }
+  }
+}
