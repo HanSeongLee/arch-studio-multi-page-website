@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.24.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.23.0...v1.24.0) (2024-01-23)
+
+
+### ✨ Features
+
+* add contact form section schema ([c083ddd](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/c083ddd5457d630f9a1aa844254a6ebd94a783ce))
+
 ## [1.23.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.22.0...v1.23.0) (2024-01-22)
 
 
