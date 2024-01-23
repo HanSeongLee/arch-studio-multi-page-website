@@ -2,13 +2,19 @@ import { ResponsiveThumbnail } from 'types/thumbnail';
 import { ISocialCard } from 'types/social-card';
 import { IContactDetails } from 'types/contact';
 
-export type Section = IHeroSection | IIntroSection | ILeaderSection | IContactDetailsSection;
+export type Section =
+    IHeroSection |
+    IIntroSection |
+    ILeaderSection |
+    IContactDetailsSection |
+    IContactFormSection;
 
 export enum SectionName {
     HERO_SECTION = 'heroSection',
     INTRO_SECTION = 'introSection',
     LEADER_SECTION = 'leaderSection',
     CONTACT_DETAILS_SECTION = 'contactDetailsSection',
+    CONTACT_FORM_SECTION = 'contactFormSection',
 }
 
 export const SECTION_NAME_TYPES = Object.values(SectionName).map((name) => {
@@ -55,4 +61,9 @@ interface ILeaderSection extends IBaseSection {
 interface IContactDetailsSection extends IBaseSection {
     _type: SectionName.CONTACT_DETAILS_SECTION;
     officeItems: IContactDetails[];
+}
+
+interface IContactFormSection extends IBaseSection {
+    _type: SectionName.CONTACT_FORM_SECTION;
+    title: string;
 }
