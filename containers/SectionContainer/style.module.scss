@@ -22,6 +22,22 @@
 .contactDetailsSection {
 
   @include media(">tablet") {
-    margin-top: 200px;
+    margin-top: 226px;
+  }
+
+  @include media(">desktop") {
+    margin-top: 199px;
+  }
+}
+
+.contactFormSection {
+  margin-top: 73px;
+
+  @include media(">tablet") {
+    margin-top: 199px;
+  }
+
+  @include media(">desktop") {
+    margin-top: 159px;
   }
 }
