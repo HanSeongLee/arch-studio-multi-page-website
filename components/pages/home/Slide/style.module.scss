@@ -1,0 +1,65 @@
+@import "styles/utils";
+
+.slide {
+  position: relative;
+  width: 100%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include media(">tablet") {
+    height: 720px;
+  }
+
+  @include media(">desktop") {
+    align-items: initial;
+  }
+
+  .overlay, .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .overlay {
+    background: rgba(0, 0, 0, 0.35);
+  }
+
+  .content {
+    max-width: 311px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 116px;
+
+    @include media(">tablet") {
+      max-width: 457px;
+      padding-top: 186px;
+    }
+
+    @include media(">desktop") {
+      max-width: 544px;
+      margin-left: 190px;
+    }
+  }
+
+  .title, .description {
+    color: var(--color-white);
+  }
+
+  .title + .description {
+    margin-top: 11px;
+
+    @include media(">tablet") {
+      margin-top: 10px;
+    }
+  }
+
+  .buttonContainer {
+    margin-top: 83px;
+
+    @include media(">tablet") {
+      margin-top: 41px;
+    }
+  }
+}
