@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.26.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.25.0...v1.26.0) (2024-01-25)
+
+
+### ✨ Features
+
+* add Slide component ([617d8af](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/617d8af49ac9d39491000c7c676005a065020eb9))
+
 ## [1.25.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.24.0...v1.25.0) (2024-01-24)
 
 
