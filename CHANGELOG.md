@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.27.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.26.0...v1.27.0) (2024-01-26)
+
+
+### ✨ Features
+
+* add query fetching query ([f2e3ac1](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/f2e3ac1868094beb03040cc9ed68c6ddd02507d2))
+
 ## [1.26.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.25.0...v1.26.0) (2024-01-25)
 
 
