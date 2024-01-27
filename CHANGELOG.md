@@ -1,5 +1,20 @@
 # 🚦 CHANGELOG
 
+## [1.28.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.27.0...v1.28.0) (2024-01-27)
+
+
+### ✨ Features
+
+* add counter to PortfolioCard component ([d7935fa](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/d7935fa704d1db056a2f895149c45ad20fcfc1cc))
+* add CounterGroup component ([7032d7f](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/7032d7f074cdf1815718f78c58f0845abe262e09))
+* add render to PortfolioContainer ([72d55c4](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/72d55c40913a1d578fccd1e427c85fe4e02707ef))
+* add transformDescription to PortfolioContainer ([2a936c3](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/2a936c3ff19220884fee8f617fb316debd23eb4c))
+
+
+### 🐛 Bug Fixes
+
+* add LargeNumber to typography ([d2d981a](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/d2d981a6df8eb081baf3031e221fc8016a95b569))
+
 ## [1.27.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.26.0...v1.27.0) (2024-01-26)
 
 
