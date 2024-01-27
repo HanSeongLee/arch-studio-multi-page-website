@@ -9,6 +9,11 @@
   font-family: $font-family;
 }
 
+@mixin LargeNumber {
+  @include Typography(250px, 700, normal, 200px, -5px, var(--league-spartan-font));
+  color: var(--color-very-light-grey);
+}
+
 @mixin HeadingXL {
   @include Typography(120px, 700, normal, 200px, -3px, var(--spartan-font));
 
