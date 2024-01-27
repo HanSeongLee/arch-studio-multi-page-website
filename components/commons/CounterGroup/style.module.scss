@@ -1,0 +1,11 @@
+
+.counterGroup {
+  counter-reset: counter;
+}
+
+.counterItemExample {
+  &::before {
+    counter-increment: counter;
+    content: counter(counter);
+  }
+}
