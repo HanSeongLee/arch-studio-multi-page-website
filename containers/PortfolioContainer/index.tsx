@@ -6,9 +6,13 @@ import { IPortfolio } from 'types/portfolio';
 
 interface IProps extends HTMLAttributes<HTMLDivElement> {
     items: IPortfolio[];
+    enableCounter?: boolean;
 }
 
-const PortfolioContainer: React.FC<IProps> = ({ items, className, children, ...props }) => {
+const PortfolioContainer: React.FC<IProps> = ({
+                                                  items, enableCounter, className, children,
+                                                  ...props
+                                              }) => {
     return (
         <div className={cn(className)}
              {...props}
@@ -20,6 +24,7 @@ const PortfolioContainer: React.FC<IProps> = ({ items, className, children, ...p
                     <PortfolioCard key={item._id}
                                    {...item}
                                    description={description}
+                                   enableCounter={enableCounter}
                     />
                 );
             })}

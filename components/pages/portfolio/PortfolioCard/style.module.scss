@@ -1,9 +1,11 @@
-@import "../../../../styles/utils";
+@import "styles/utils";
+@import "styles/typography";
 
 .portfolioCard {
   position: relative;
   width: 311px;
   height: 240px;
+  overflow: hidden;
 
   @include media(">tablet") {
     width: 573px;
@@ -12,6 +14,28 @@
   @include media(">desktop") {
     width: 350px;
     height: 560px;
+  }
+
+  &.counter::before {
+    @include LargeNumber;
+
+    position: absolute;
+    top: 29px;
+    right: 16px;
+    counter-increment: counter;
+    content: counter(counter);
+    opacity: 0.5;
+    z-index: 1;
+    visibility: hidden;
+
+    @include media(">tablet") {
+      visibility: visible;
+    }
+
+    @include media(">desktop") {
+      top: 45px;
+      right: -16px;
+    }
   }
 
   .overlay {

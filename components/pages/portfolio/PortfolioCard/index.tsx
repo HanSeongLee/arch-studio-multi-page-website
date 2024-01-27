@@ -12,14 +12,17 @@ interface IProps extends HTMLAttributes<HTMLDivElement> {
     title: string;
     titleAs?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
     description: string;
+    enableCounter?: boolean;
 }
 
 const PortfolioCard: React.FC<IProps> = ({
                                              thumbnail, title, titleAs = 'h2', description,
-                                             className, children, ...props
+                                             enableCounter, className, children, ...props
                                          }) => {
     return (
-        <div className={cn(styles.portfolioCard, className)}
+        <div className={cn(styles.portfolioCard, {
+            [styles.counter]: enableCounter,
+        }, className)}
              {...props}
         >
             <ResponsiveImage srcSet={thumbnail}

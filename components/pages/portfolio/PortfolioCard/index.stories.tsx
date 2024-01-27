@@ -25,3 +25,15 @@ export const Default: Story = {
         description: 'September 2019',
     },
 };
+
+export const Counter: Story = {
+    args: {
+        thumbnail: {
+            mobile: '/img/portfolio/mobile/image-seraph.jpg',
+            tablet: '/img/portfolio/tablet/image-seraph.jpg',
+            desktop: '/img/portfolio/desktop/image-seraph.jpg',
+        },
+        title: 'Seraph Station',
+        description: 'September 2019',
+    },
+};
