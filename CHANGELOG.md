@@ -1,5 +1,13 @@
 # 🚦 CHANGELOG
 
+## [1.29.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.28.0...v1.29.0) (2024-01-28)
+
+
+### ✨ Features
+
+* add disable to Container component ([0c8a7bb](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/0c8a7bbaef3bfcb30990d3dfbeb72c279edbd6bc))
+* add FeaturedSection component ([029008e](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/029008e78dbd785a85867672a9d85429ed7bee4e))
+
 ## [1.28.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.27.0...v1.28.0) (2024-01-27)
 
 
