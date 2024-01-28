@@ -1,0 +1,37 @@
+@import "styles/utils";
+
+.featuredSection {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 43px;
+
+    @include media(">tablet") {
+      margin-bottom: 85px;
+    }
+
+    @include media(">desktop") {
+      margin-bottom: 64px;
+    }
+
+    .buttonContainer {
+      display: none;
+
+      @include media(">tablet") {
+        display: block;
+      }
+    }
+  }
+
+  .portfolioContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    @include media(">desktop") {
+      flex-direction: row;
+      gap: 30px;
+    }
+  }
+}
