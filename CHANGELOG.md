@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.30.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.29.0...v1.30.0) (2024-01-29)
+
+
+### ✨ Features
+
+* add featured section schema ([04024fc](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/04024fc3d7c279ba0fd29930151b154f9b805363))
+
 ## [1.29.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.28.0...v1.29.0) (2024-01-28)
 
 
