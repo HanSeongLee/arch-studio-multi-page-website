@@ -1,13 +1,15 @@
 import { ResponsiveThumbnail } from 'types/thumbnail';
 import { ISocialCard } from 'types/social-card';
 import { IContactDetails } from 'types/contact';
+import { IPortfolio } from 'types/portfolio';
 
 export type Section =
     IHeroSection |
     IIntroSection |
     ILeaderSection |
     IContactDetailsSection |
-    IContactFormSection;
+    IContactFormSection |
+    IFeaturedSection;
 
 export enum SectionName {
     HERO_SECTION = 'heroSection',
@@ -15,6 +17,7 @@ export enum SectionName {
     LEADER_SECTION = 'leaderSection',
     CONTACT_DETAILS_SECTION = 'contactDetailsSection',
     CONTACT_FORM_SECTION = 'contactFormSection',
+    FEATURED_SECTION = 'featuredSection',
 }
 
 export const SECTION_NAME_TYPES = Object.values(SectionName).map((name) => {
@@ -66,4 +69,10 @@ interface IContactDetailsSection extends IBaseSection {
 interface IContactFormSection extends IBaseSection {
     _type: SectionName.CONTACT_FORM_SECTION;
     title: string;
+}
+
+interface IFeaturedSection extends IBaseSection {
+    _type: SectionName.FEATURED_SECTION;
+    title: string;
+    portfolioItems: IPortfolio[];
 }
