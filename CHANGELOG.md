@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.31.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.30.0...v1.31.0) (2024-01-30)
+
+
+### ✨ Features
+
+* add FeaturedSection to SectionContainer ([384b95f](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/384b95f1c6e5e0e356ce3074c4a0867783d6ddd3))
+
 ## [1.30.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.29.0...v1.30.0) (2024-01-29)
 
 
