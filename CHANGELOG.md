@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.32.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.31.0...v1.32.0) (2024-01-31)
+
+
+### ✨ Features
+
+* add CTASection component ([bfb3480](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/bfb3480dc34cc697ae68c455cdc7f12046ef8b16))
+
 ## [1.31.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.30.0...v1.31.0) (2024-01-30)
 
 
