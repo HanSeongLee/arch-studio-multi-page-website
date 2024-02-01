@@ -9,7 +9,8 @@ export type Section =
     ILeaderSection |
     IContactDetailsSection |
     IContactFormSection |
-    IFeaturedSection;
+    IFeaturedSection |
+    ICTASection;
 
 export enum SectionName {
     HERO_SECTION = 'heroSection',
@@ -18,6 +19,7 @@ export enum SectionName {
     CONTACT_DETAILS_SECTION = 'contactDetailsSection',
     CONTACT_FORM_SECTION = 'contactFormSection',
     FEATURED_SECTION = 'featuredSection',
+    CTA_SECTION = 'ctaSection',
 }
 
 export const SECTION_NAME_TYPES = Object.values(SectionName).map((name) => {
@@ -75,4 +77,14 @@ interface IFeaturedSection extends IBaseSection {
     _type: SectionName.FEATURED_SECTION;
     title: string;
     portfolioItems: IPortfolio[];
+}
+
+interface ICTASection extends IBaseSection {
+    _type: SectionName.CTA_SECTION;
+    title: string;
+    thumbnail: ResponsiveThumbnail;
+    ctaButton: {
+        text: string;
+        url: string;
+    }
 }
