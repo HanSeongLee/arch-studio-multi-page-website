@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.33.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.32.0...v1.33.0) (2024-02-01)
+
+
+### ✨ Features
+
+* add cta section schema ([1d66acb](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/1d66acb2d4e8214ca4c89b7e9ffe60a5988bbb59))
+
 ## [1.32.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.31.0...v1.32.0) (2024-01-31)
 
 
