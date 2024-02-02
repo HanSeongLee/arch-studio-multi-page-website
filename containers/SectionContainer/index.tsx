@@ -8,6 +8,7 @@ import { Section, SectionName } from 'types/page';
 import ContactDetailsSection from 'components/pages/contact/ContactDetailsSection';
 import ContactFormSection from 'components/pages/contact/ContactFormSection';
 import FeaturedSection from 'components/pages/home/FeaturedSection';
+import CTASection from 'components/pages/home/CTASection';
 
 interface IProps extends HTMLAttributes<HTMLDivElement> {
     items: Section[];
@@ -56,8 +57,15 @@ const SectionContainer: React.FC<IProps> = ({ items, className, ...props }) => {
                         );
                     case SectionName.FEATURED_SECTION:
                         return (
-                            <FeaturedSection key={section._key}
+                            <FeaturedSection className={styles.featuredSection}
+                                             key={section._key}
                                              {...section}
+                            />
+                        );
+                    case SectionName.CTA_SECTION:
+                        return (
+                            <CTASection key={section._key}
+                                        {...section}
                             />
                         );
                     default:

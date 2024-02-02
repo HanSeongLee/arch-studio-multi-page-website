@@ -41,3 +41,11 @@
     margin-top: 159px;
   }
 }
+
+.featuredSection {
+  margin-top: 73px;
+
+  @include media(">tablet") {
+    margin-top: 200px;
+  }
+}
