@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.34.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.33.0...v1.34.0) (2024-02-02)
+
+
+### ✨ Features
+
+* add CTASection to SectionContainer ([8e82e7a](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/8e82e7a9bed06e2c8869ee89a4dc15b2aad8d781))
+
 ## [1.33.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.32.0...v1.33.0) (2024-02-01)
 
 
