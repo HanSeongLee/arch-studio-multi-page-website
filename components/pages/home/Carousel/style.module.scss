@@ -1,0 +1,17 @@
+@import "styles/utils";
+
+.carousel {
+  position: relative;
+
+  .indicator {
+    position: absolute;
+    left: -80px;
+    bottom: 0;
+    display: none;
+    list-style: none;
+
+    @include media(">desktop") {
+      display: flex;
+    }
+  }
+}
