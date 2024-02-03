@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.35.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.34.0...v1.35.0) (2024-02-03)
+
+
+### ✨ Features
+
+* add Carousel component ([9f010e2](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/9f010e23f1b784d1a4be48595f823874023e03a4))
+
 ## [1.34.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.33.0...v1.34.0) (2024-02-02)
 
 
