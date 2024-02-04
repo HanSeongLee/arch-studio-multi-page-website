@@ -2,6 +2,7 @@ import { ResponsiveThumbnail } from 'types/thumbnail';
 import { ISocialCard } from 'types/social-card';
 import { IContactDetails } from 'types/contact';
 import { IPortfolio } from 'types/portfolio';
+import { ISlide } from 'types/slide';
 
 export type Section =
     IHeroSection |
@@ -10,7 +11,8 @@ export type Section =
     IContactDetailsSection |
     IContactFormSection |
     IFeaturedSection |
-    ICTASection;
+    ICTASection |
+    ICarouselSection;
 
 export enum SectionName {
     HERO_SECTION = 'heroSection',
@@ -20,6 +22,7 @@ export enum SectionName {
     CONTACT_FORM_SECTION = 'contactFormSection',
     FEATURED_SECTION = 'featuredSection',
     CTA_SECTION = 'ctaSection',
+    CAROUSEL_SECTION = 'carouselSection',
 }
 
 export const SECTION_NAME_TYPES = Object.values(SectionName).map((name) => {
@@ -87,4 +90,9 @@ interface ICTASection extends IBaseSection {
         text: string;
         url: string;
     }
+}
+
+interface ICarouselSection extends IBaseSection {
+    _type: SectionName.CAROUSEL_SECTION;
+    slides: ISlide[];
 }
