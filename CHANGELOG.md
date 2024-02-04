@@ -1,5 +1,13 @@
 # 🚦 CHANGELOG
 
+## [1.36.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.35.0...v1.36.0) (2024-02-04)
+
+
+### ✨ Features
+
+* add CarouselSection component ([8b60f6f](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/8b60f6f4ea5b77aab7ecf0c6d2aa942ab25255c6))
+* add slide and carousel section schemas ([d4248e2](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/d4248e27c52a2e6d399ed4266ac15c27fb839fad))
+
 ## [1.35.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.34.0...v1.35.0) (2024-02-03)
 
 
