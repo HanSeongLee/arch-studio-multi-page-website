@@ -1,0 +1,53 @@
+@import "styles/utils";
+
+.welcomeSection {
+
+  .container {
+    position: relative;
+    display: flex;
+    gap: 125px;
+
+    @include media(">tablet") {
+      padding-top: 159px;
+    }
+
+    @include media(">desktop") {
+      padding-top: 87px;
+      padding-left: 189px;
+    }
+  }
+
+  .subtitle {
+    display: none;
+
+    @include media(">tablet") {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+    @include media(">tablet") {
+      padding-top: 0;
+      gap: 43px;
+    }
+
+    @include media(">desktop") {
+      padding-top: 74px;
+    }
+  }
+
+  .thumbnail {
+    display: none;
+
+    @include media(">desktop") {
+      display: block;
+    }
+  }
+}
