@@ -1,5 +1,17 @@
 # 🚦 CHANGELOG
 
+## [1.37.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.36.0...v1.37.0) (2024-02-05)
+
+
+### ✨ Features
+
+* add WelcomeSection component ([e400798](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/e40079864b78c7e1495f694bdaf9b3b68a468d43))
+
+
+### 🐛 Bug Fixes
+
+* add Spartan font to preview-head of Storybook ([6a342e5](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/6a342e50489fff6504d27d4c72bf983ac9693c04))
+
 ## [1.36.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.35.0...v1.36.0) (2024-02-04)
 
 
