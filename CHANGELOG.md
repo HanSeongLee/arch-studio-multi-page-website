@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.38.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.37.0...v1.38.0) (2024-02-06)
+
+
+### ✨ Features
+
+* add welcome section schema ([01d44a3](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/01d44a3ee8b263126dc4efac0a61b9ca033cc651))
+
 ## [1.37.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.36.0...v1.37.0) (2024-02-05)
 
 
