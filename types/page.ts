@@ -3,6 +3,7 @@ import { ISocialCard } from 'types/social-card';
 import { IContactDetails } from 'types/contact';
 import { IPortfolio } from 'types/portfolio';
 import { ISlide } from 'types/slide';
+import { ImageSrc } from 'types/image';
 
 export type Section =
     IHeroSection |
@@ -12,7 +13,8 @@ export type Section =
     IContactFormSection |
     IFeaturedSection |
     ICTASection |
-    ICarouselSection;
+    ICarouselSection |
+    IWelcomeSection;
 
 export enum SectionName {
     HERO_SECTION = 'heroSection',
@@ -23,6 +25,7 @@ export enum SectionName {
     FEATURED_SECTION = 'featuredSection',
     CTA_SECTION = 'ctaSection',
     CAROUSEL_SECTION = 'carouselSection',
+    WELCOME_SECTION = 'welcomeSection',
 }
 
 export const SECTION_NAME_TYPES = Object.values(SectionName).map((name) => {
@@ -95,4 +98,12 @@ interface ICTASection extends IBaseSection {
 interface ICarouselSection extends IBaseSection {
     _type: SectionName.CAROUSEL_SECTION;
     slides: ISlide[];
+}
+
+interface IWelcomeSection extends IBaseSection {
+    _type: SectionName.WELCOME_SECTION;
+    subtitle: string;
+    title: string;
+    description: string;
+    thumbnail: ImageSrc;
 }

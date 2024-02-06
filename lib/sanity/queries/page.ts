@@ -8,8 +8,18 @@ export const fetchPage = async (slug: string) => {
         title,
         "sections": sections[]{
             ...,
-            "socialCardItems": *[ _type == "socialCard"],
-            "officeItems": *[ _type == "office"]
+            "socialCardItems": socialCardItems[]->{
+                ...,
+            },
+            "officeItems": officeItems[]->{
+                ...,
+            },
+            "portfolioItems": portfolioItems[]->{
+                ...,
+            },
+            "slides": slides[]->{
+                ...,
+            },
         },
     }`) as IPage;
 };

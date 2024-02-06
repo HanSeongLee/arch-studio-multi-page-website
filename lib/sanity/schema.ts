@@ -13,12 +13,13 @@ import featuredSection from 'lib/sanity/schemas/sections/featured-section';
 import ctaSection from 'lib/sanity/schemas/sections/cta-section';
 import slide from 'lib/sanity/schemas/slide';
 import carouselSection from 'lib/sanity/schemas/sections/carousel-section';
+import welcomeSection from 'lib/sanity/schemas/sections/welcome-section';
 
 export const schema: { types: SchemaTypeDefinition[]; } = {
   types: [
     portfolio, socialCard, heroSection, introSection,
     leaderSection, office, contactDetailsSection, contactFormSection,
     featuredSection, ctaSection, slide, carouselSection,
-    page,
+    welcomeSection, page,
   ],
 };
