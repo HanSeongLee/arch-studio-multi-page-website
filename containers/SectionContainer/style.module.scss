@@ -49,3 +49,27 @@
     margin-top: 200px;
   }
 }
+
+.ctaSection {
+  margin-top: 133px;
+
+  @include media(">tablet") {
+    margin-top: 233px;
+  }
+
+  @include media(">desktop") {
+    margin-top: 200px;
+  }
+}
+
+.welcomeSection {
+  margin-top: 141px;
+
+  @include media(">tablet") {
+    margin-top: 89px;
+  }
+
+  @include media(">desktop") {
+    margin-top: 108px;
+  }
+}
