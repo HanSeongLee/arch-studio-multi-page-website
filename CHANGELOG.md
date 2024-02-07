@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.39.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.38.0...v1.39.0) (2024-02-07)
+
+
+### ✨ Features
+
+* add CarouselSection and WelcomeSection components to SectionContainer ([3f911be](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/3f911beafdc908842c86f0d610ca9f79fb7862f0))
+
 ## [1.38.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.37.0...v1.38.0) (2024-02-06)
 
 
