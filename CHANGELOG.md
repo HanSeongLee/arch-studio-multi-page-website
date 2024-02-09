@@ -1,5 +1,13 @@
 # 🚦 CHANGELOG
 
+## [1.41.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.40.0...v1.41.0) (2024-02-09)
+
+
+### ✨ Features
+
+* add contact page ([61a0fbf](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/61a0fbfb7f47052f13950ec0da24bcfaba3ac95d))
+* update main page ([c4ca2c9](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/c4ca2c9aa4c4b35802055c3ca8b7096409831f15))
+
 ## [1.40.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.39.0...v1.40.0) (2024-02-08)
 
 
