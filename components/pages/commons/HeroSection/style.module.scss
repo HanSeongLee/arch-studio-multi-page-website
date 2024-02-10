@@ -86,21 +86,6 @@
     position: relative;
     display: none;
 
-    &::before {
-      position: absolute;
-      left: 118px;
-      bottom: 26px;
-      width: 65px;
-      height: 1px;
-      background: var(--color-light-grey);
-      content: "";
-
-      @include media(">desktop") {
-        left: 200px;
-        bottom: -46px;
-      }
-    }
-
     @include media(">tablet") {
       display: block;
       right: 60px;
@@ -116,8 +101,23 @@
   }
 
   .title {
+    position: relative;
     color: var(--color-primary);
     margin-bottom: 21px;
+
+    &::before {
+      position: absolute;
+      left: 0;
+      top: -73px;
+      width: 65px;
+      height: 1px;
+      background: var(--color-light-grey);
+      content: "";
+
+      @include media(">desktop") {
+        top: -57px;
+      }
+    }
 
     @include media(">tablet") {
       margin-bottom: 41px;
