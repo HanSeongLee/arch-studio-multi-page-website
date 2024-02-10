@@ -1,5 +1,17 @@
 # 🚦 CHANGELOG
 
+## [1.42.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.41.0...v1.42.0) (2024-02-10)
+
+
+### ✨ Features
+
+* add useWindowsResize hook ([d8c453d](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/d8c453de18ee2a7db4b81f810f3e74d2e0c45d11))
+
+
+### 🐛 Bug Fixes
+
+* correct style of HeroSection component ([b9c27c6](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/b9c27c6c89a30d8b3511fc529228e9f71fab7d15))
+
 ## [1.41.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.40.0...v1.41.0) (2024-02-09)
 
 
