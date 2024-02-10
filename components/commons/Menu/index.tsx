@@ -6,6 +6,7 @@ import Button from 'components/commons/Button';
 import { IconName } from 'constants/Icons';
 import { SITEMAP } from 'constants/sitemap';
 import { Sitemap } from 'types/sitemap';
+import { useWindowResize } from 'hooks/useWindowResize';
 
 interface IProps extends HTMLAttributes<HTMLDivElement> {
     items: Sitemap;
@@ -17,6 +18,13 @@ const Menu: React.FC<IProps> = ({ items, className, children, ...props }) => {
     const handleMenuButtonClick = () => {
         setIsMenuOpen(!isMenuOpen);
     };
+
+    useWindowResize((event) => {
+        if ((event.target as Window).innerWidth <= 768) {
+            return;
+        }
+        setIsMenuOpen(false);
+    });
 
     return (
         <div className={cn(styles.menu, {
