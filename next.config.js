@@ -52,6 +52,9 @@ module.exports = withSentryConfig(
       silent: true,
 
       dryRun: process.env.NODE_ENV !== 'production',
+
+      org: "comma-5l",
+      project: "arch-studio-multi-page-web",
     },
     {
       // For all available options, see:
