@@ -1,5 +1,16 @@
 # 🚦 CHANGELOG
 
+## [1.42.1](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.42.0...v1.42.1) (2024-02-12)
+
+
+### 🐛 Bug Fixes
+
+* add number padding to buttons in indicator ([fa5940c](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/fa5940cbd25deab995c77f0222ffee6ae59c4776))
+* add style of Slide component ([3521448](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/3521448d669df60bcdcf29d84823e23e76131bb5))
+* correct style of FeaturedSection component ([3ff30f2](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/3ff30f20d46c034024c1fc09107dc71d3e47bfb5))
+* correct style of Footer component ([794e0cc](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/794e0cccbeab848b727eb27ca44f1984dfbd26dd))
+* prevent image flicker ([1c092e8](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/1c092e87770279a122f124b76e99ee15a2d9d047))
+
 ## [1.42.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.41.0...v1.42.0) (2024-02-10)
 
 
