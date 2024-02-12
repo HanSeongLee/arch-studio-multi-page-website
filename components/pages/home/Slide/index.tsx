@@ -34,7 +34,7 @@ const Slide: React.FC<IProps> = ({
             <div className={styles.content}>
                 <Title className={styles.title}
                        as={titleAs}
-                       size={'medium'}
+                       size={'large'}
                 >
                     {title}
                 </Title>
