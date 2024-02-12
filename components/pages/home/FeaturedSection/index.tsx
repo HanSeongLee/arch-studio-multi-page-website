@@ -24,25 +24,23 @@ const FeaturedSection: React.FC<IProps> = ({
         <section className={cn(styles.featuredSection, className)}
                  {...props}
         >
-            <Container>
-                <div className={styles.header}>
-                    <Title className={styles.title}
-                           as={'h2'}
-                           size={'medium'}
-                    >
-                        {title}
-                    </Title>
-                    <div className={styles.buttonContainer}>
-                        <Link href={'/portfolio'}>
-                            <Button variant={'primary'}
-                                    iconName={IconName.Arrow}
-                            >
-                                See All
-                            </Button>
-                        </Link>
-                    </div>
+            <Container className={styles.container}>
+                <Title className={styles.title}
+                       as={'h2'}
+                       size={'medium'}
+                >
+                    {title}
+                </Title>
+                <div className={styles.buttonContainer}>
+                    <Link href={'/portfolio'}>
+                        <Button variant={'primary'}
+                                iconName={IconName.Arrow}
+                        >
+                            See All
+                        </Button>
+                    </Link>
                 </div>
-                <CounterGroup>
+                <CounterGroup className={styles.counterGroup}>
                     <PortfolioContainer className={styles.portfolioContainer} items={portfolioItems}
                                         render={(item) => (
                                             <Link href={`/portfolio`}

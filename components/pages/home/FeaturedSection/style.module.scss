@@ -1,27 +1,57 @@
 @import "styles/utils";
 
 .featuredSection {
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 43px;
+  .container {
+    display: grid;
+    grid-template-areas:
+      "title title"
+      "counterGroup counterGroup"
+      "buttonContainer buttonContainer";
+    gap: 24px;
 
     @include media(">tablet") {
-      margin-bottom: 85px;
+      grid-template-areas:
+      "title buttonContainer"
+      "counterGroup counterGroup";
+      gap: 85px;
     }
 
     @include media(">desktop") {
-      margin-bottom: 64px;
+      gap: 64px;
+    }
+  }
+
+  .title {
+    grid-area: title;
+    margin-bottom: 19px;
+
+    @include media(">tablet") {
+      margin-bottom: 0;
+    }
+  }
+
+  .buttonContainer {
+    grid-area: buttonContainer;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    @include media(">tablet") {
+      flex-direction: row;
+      justify-content: flex-end;
     }
 
-    .buttonContainer {
-      display: none;
+    a, button {
+      width: 100%;
 
       @include media(">tablet") {
-        display: block;
+        width: initial;
       }
     }
+  }
+
+  .counterGroup {
+    grid-area: counterGroup;
   }
 
   .portfolioContainer {
