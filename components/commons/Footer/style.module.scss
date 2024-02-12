@@ -11,6 +11,10 @@
     padding-bottom: 0;
   }
 
+  @include media(">desktop") {
+    margin-top: 200px;
+  }
+
   .container {
     max-width: 252px;
     width: 100%;
