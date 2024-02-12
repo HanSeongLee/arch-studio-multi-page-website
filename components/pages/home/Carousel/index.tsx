@@ -68,7 +68,7 @@ const Carousel: React.FC<IProps> = ({
                                 active={index === activeIndex}
                                 onClick={() => handleIndicatorButtonClick(index)}
                         >
-                            {index + 1}
+                            {String(index + 1).padStart(2, '0')}
                         </Button>
                     </li>
                 ))}
