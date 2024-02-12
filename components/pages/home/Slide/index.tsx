@@ -28,6 +28,7 @@ const Slide: React.FC<IProps> = ({
             <ResponsiveImage srcSet={thumbnail}
                              alt={''}
                              fill
+                             priority
             />
             <div className={styles.overlay} />
             <div className={styles.content}>
