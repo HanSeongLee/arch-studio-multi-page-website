@@ -33,7 +33,8 @@ const FeaturedSection: React.FC<IProps> = ({
                 </Title>
                 <div className={styles.buttonContainer}>
                     <Link href={'/portfolio'}>
-                        <Button variant={'primary'}
+                        <Button as={'div'}
+                                variant={'primary'}
                                 iconName={IconName.Arrow}
                         >
                             See All

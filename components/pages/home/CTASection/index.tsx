@@ -45,8 +45,11 @@ const CTASection: React.FC<IProps> = ({
                             {title}
                         </Title>
                         <div className={styles.buttonContainer}>
-                            <Link href={ctaButton.url}>
-                                <Button variant={'primary'}
+                            <Link href={ctaButton.url}
+                                  passHref
+                            >
+                                <Button as={'div'}
+                                        variant={'primary'}
                                         iconName={IconName.Arrow}
                                 >
                                     {ctaButton.text}
