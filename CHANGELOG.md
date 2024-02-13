@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.42.2](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.42.1...v1.42.2) (2024-02-13)
+
+
+### 🐛 Bug Fixes
+
+* fix button html validation in a tag ([f560711](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/f5607112173d5b7a32512e1e4067b7c8ead4d811))
+
 ## [1.42.1](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.42.0...v1.42.1) (2024-02-12)
 
 
