@@ -56,6 +56,7 @@ const ContactForm: React.FC<IProps> = ({ onSubmit, className, children, ...props
                         variant={'primary'}
                         size={'square'}
                         iconName={IconName.Arrow}
+                        aria-label={'Send Message'}
                 />
             </div>
         </form>
