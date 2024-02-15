@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.42.4](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.42.3...v1.42.4) (2024-02-15)
+
+
+### 🐛 Bug Fixes
+
+* add label tag to Input and TextArea components ([1958616](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/19586168dd966671e343b4e5786502660eb152b0))
+
 ## [1.42.3](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.42.2...v1.42.3) (2024-02-14)
 
 
