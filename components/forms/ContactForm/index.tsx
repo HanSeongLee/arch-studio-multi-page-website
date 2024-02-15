@@ -27,6 +27,8 @@ const ContactForm: React.FC<IProps> = ({ onSubmit, className, children, ...props
         >
             <div className={styles.inputContainer}>
                 <Input type={'text'}
+                       label={'Name'}
+                       labelHidden
                        placeholder={'Name'}
                        error={errors.name?.message}
                        {...register('name', {
@@ -34,6 +36,8 @@ const ContactForm: React.FC<IProps> = ({ onSubmit, className, children, ...props
                        })}
                 />
                 <Input type={'email'}
+                       label={'Email'}
+                       labelHidden
                        placeholder={'Email'}
                        error={errors.email?.message}
                        {...register('email', {
@@ -45,6 +49,8 @@ const ContactForm: React.FC<IProps> = ({ onSubmit, className, children, ...props
                        })}
                 />
                 <TextArea placeholder={'Message'}
+                          label={'Message'}
+                          labelHidden
                           error={errors.message?.message}
                           {...register('message', {
                                  required: 'Can’t be empty',

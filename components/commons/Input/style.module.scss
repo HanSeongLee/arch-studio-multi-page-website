@@ -11,6 +11,10 @@
     content: "";
   }
 
+  &.labelHidden .labelText {
+    display: none;
+  }
+
   &.error {
     &::before {
       background: var(--color-danger);
