@@ -2,6 +2,11 @@
   position: relative;
   display: flex;
 
+  label {
+    display: flex;
+    width: 100%;
+  }
+
   &::before {
     position: absolute;
     bottom: 2px;
