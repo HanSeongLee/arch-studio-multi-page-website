@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.42.5](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.42.4...v1.42.5) (2024-02-17)
+
+
+### 🐛 Bug Fixes
+
+* correct style of TextArea component ([1ef1415](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/1ef1415900fa60565e7158e902ac30d0dfd7c299))
+
 ## [1.42.4](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.42.3...v1.42.4) (2024-02-15)
 
 
