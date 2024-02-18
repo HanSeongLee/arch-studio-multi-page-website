@@ -17,6 +17,8 @@ type Story = StoryObj<typeof Input>;
 export const Default: Story = {
     args: {
         type: 'text',
+        label: 'Name',
+        labelHidden: true,
         placeholder: 'Name',
     },
 };
@@ -24,6 +26,8 @@ export const Default: Story = {
 export const Error: Story = {
     args: {
         type: 'text',
+        label: 'Name',
+        labelHidden: true,
         placeholder: 'Name',
         error: 'Can’t be empty',
     },

@@ -16,12 +16,16 @@ type Story = StoryObj<typeof TextArea>;
 
 export const Default: Story = {
     args: {
+        label: 'Message',
+        labelHidden: true,
         placeholder: 'Message',
     },
 };
 
 export const Error: Story = {
     args: {
+        label: 'Message',
+        labelHidden: true,
         placeholder: 'Message',
         error: 'Can’t be empty',
     },
