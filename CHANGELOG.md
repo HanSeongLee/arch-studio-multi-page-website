@@ -1,5 +1,14 @@
 # 🚦 CHANGELOG
 
+## [1.42.6](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.42.5...v1.42.6) (2024-02-18)
+
+
+### 🐛 Bug Fixes
+
+* add flex-direction to label tag in TextArea component ([1089049](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/1089049dee1b73ebddd22bcb1f154da6c2d1e714))
+* add missing properties to Story of Input and TextArea components ([5628e08](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/5628e085cef1894c272aa477e250b8532863f3db))
+* **FeaturedSection:** correct description in portfolio card ([a7bfe5b](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/a7bfe5b15dc817f915cdbdd3c27df61dddda3188))
+
 ## [1.42.5](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.42.4...v1.42.5) (2024-02-17)
 
 
