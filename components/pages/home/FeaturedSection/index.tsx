@@ -48,7 +48,7 @@ const FeaturedSection: React.FC<IProps> = ({
                                                   key={item._id}
                                             >
                                                 <PortfolioCard {...item}
-                                                               description={'View Projects'}
+                                                               description={'View All Projects'}
                                                                enableCounter
                                                 />
                                             </Link>
