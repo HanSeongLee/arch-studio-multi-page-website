@@ -1,15 +1,10 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { withSentry } from '@sentry/nextjs';
-import { parseBody } from 'next-sanity/webhook';
 import { revalidatePath } from 'next/cache';
+import { isValidSignature, SIGNATURE_HEADER_NAME } from '@sanity/webhook';
 
-type WebhookPayload = {
-  _type: string;
-  slug?: {
-    current?: string;
-  };
-};
+const SANITY_WEBHOOK_SECRET = process.env.SANITY_WEBHOOK_SECRET;
 
 async function handler(
     req: NextApiRequest,
@@ -21,22 +16,21 @@ async function handler(
       return res.status(405).json({ message });
     }
 
-    const { isValidSignature, body } = await parseBody<WebhookPayload>(
-        req,
-        process.env.SANITY_WEBHOOK_SECRET,
-    );
+    const signature = req.headers[SIGNATURE_HEADER_NAME];
+    const isValid = isValidSignature(JSON.stringify(req.body), signature as string, SANITY_WEBHOOK_SECRET as string);
 
-    if (!isValidSignature) {
+    if (!isValid) {
       const message = 'Invalid signature';
       return res.status(401).json({ message });
     }
 
-    if (!body?._type || !body?.slug?.current) {
+    const { _type, slug } = req.body;
+    if (!_type || !slug?.current) {
       const message = 'Bad request';
       return res.status(400).json({ message });
     }
 
-    const staleRoute = `/${body.slug.current}`;
+    const staleRoute = `/${slug.current}`;
     revalidatePath(staleRoute);
     const message = `Revalidation request for ${staleRoute} has been sent`;
     return res.status(200).json({ message });
