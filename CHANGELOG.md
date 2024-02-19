@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.43.4](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.43.3...v1.43.4) (2024-02-19)
+
+
+### 🐛 Bug Fixes
+
+* replace revalidatePath to res.revalidate in revalidate API ([f63ec39](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/f63ec39e1ec987a30c95f2a8e6243ab2f7d4b3f0))
+
 ## [1.43.3](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.43.2...v1.43.3) (2024-02-19)
 
 
