@@ -1,7 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { withSentry } from '@sentry/nextjs';
-import { parseBody } from 'next-sanity/src/webhook';
+import { parseBody } from 'next-sanity/webhook';
 import { revalidatePath } from 'next/cache';
 
 type WebhookPayload = {
