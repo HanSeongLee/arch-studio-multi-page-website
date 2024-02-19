@@ -30,7 +30,7 @@ async function handler(
       return res.status(400).json({ message });
     }
 
-    revalidatePath(slug.current);
+    await res.revalidate(slug.current);
     const message = `Revalidation request for ${slug.current} has been sent`;
     return res.status(200).json({ message });
   } catch (error) {
