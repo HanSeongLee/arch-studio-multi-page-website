@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.43.3](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.43.2...v1.43.3) (2024-02-19)
+
+
+### 🐛 Bug Fixes
+
+* fix slug in revalidate API ([ac73d3c](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/ac73d3c2d4ddccdbfb82232b5bfa1322164e9b29))
+
 ## [1.43.2](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.43.1...v1.43.2) (2024-02-19)
 
 
