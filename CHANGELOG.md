@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.43.0](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.42.6...v1.43.0) (2024-02-19)
+
+
+### ✨ Features
+
+* add revalidate API ([7b43c7d](https://github.com/HanSeongLee/arch-studio-multi-page-website/commit/7b43c7d812fc789b369085eee2522c05eeb5ce5c))
+
 ## [1.42.6](https://github.com/HanSeongLee/arch-studio-multi-page-website/compare/v1.42.5...v1.42.6) (2024-02-18)
 
 
