@@ -30,12 +30,12 @@ async function handler(
       return res.status(400).json({ message });
     }
 
-    const staleRoute = `/${slug.current}`;
-    revalidatePath(staleRoute);
-    const message = `Revalidation request for ${staleRoute} has been sent`;
+    revalidatePath(slug.current);
+    const message = `Revalidation request for ${slug.current} has been sent`;
     return res.status(200).json({ message });
   } catch (error) {
-    return res.status(500).json({ message: error });
+    console.error(error);
+    return res.status(500).json({ message: 'Internal server error' });
   }
 }
 
